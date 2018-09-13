@@ -11,7 +11,6 @@ public class OperationSub extends Operation {
 		
 		System.out.println("use sub to the operation!!!");
 		Double result=this.getA()-this.getB();
-		
 		return result;
 	}
 	
