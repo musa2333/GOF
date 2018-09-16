@@ -26,5 +26,6 @@
   	<module>gof.factory</module>
     <module>gof.strategy</module>
     <module>gof.decorator</module>
+    <module>gof.proxy</module>
   </modules>
 </project>
