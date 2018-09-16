@@ -1,6 +1,10 @@
 package gof.proxy;
 
-import gof.proxy.impl.Proxy;
+import java.lang.reflect.Proxy;
+
+import gof.proxy.api.GiveGift;
+import gof.proxy.impl.DynamicProxyHandler;
+import gof.proxy.impl.Pursuit;
 
 public class main {
 	
@@ -9,12 +13,17 @@ public class main {
 		
 		Person person=new Person();
 		person.setName("Cindy");
-		//proxy 
+		/*//proxy 
 		Proxy proxy=new Proxy(person);
 		
 		proxy.giveCandy();
 		proxy.giveGameBoy();
-		proxy.givePen();
+		proxy.givePen();*/
+		GiveGift pursuit=new Pursuit(person);
+		
+		GiveGift proxy=(GiveGift)Proxy.newProxyInstance(GiveGift.class.getClassLoader(), new Class[] {GiveGift.class}, new DynamicProxyHandler(pursuit));
+		
+		proxy.giveCandy();
 		
 	}
 
