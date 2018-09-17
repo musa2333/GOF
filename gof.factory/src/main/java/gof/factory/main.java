@@ -1,5 +1,9 @@
 package gof.factory;
 
+import gof.factory.fatory.AddFactory;
+import gof.factory.fatory.DivFactory;
+import gof.factory.fatory.IFactory;
+import gof.factory.fatory.MulFactory;
 import operation.OperationFactory;
 import operations.Operation;
 
@@ -11,7 +15,7 @@ import operations.Operation;
 public class main {
 	
 	public static void main(String[] args) {
-		
+		//simple factory
 		Operation operate=null;
 		System.out.println("add operation!!!");
 		operate=OperationFactory.createOperation("+");
@@ -43,5 +47,28 @@ public class main {
 	    operate.setB(23.2);
 	    result=operate.getResult();
 	    System.out.println("the result is "+result);
+	    //factory method
+	    System.out.println("--------------Factory METHOD------------------------");
+	    IFactory IoperFactory=new DivFactory();//
+	    Operation oper=IoperFactory.createOperation();//lazy load by child class
+	    oper.setA(11.0d);
+	    oper.setB(1.32d);
+	    result=oper.getResult();
+	    System.out.println("the result is "+result);
+	    System.out.println("------------------------------------------------");
+	    IoperFactory=new AddFactory();
+	    oper=IoperFactory.createOperation();
+	    oper.setA(11.1d);
+	    oper.setB(-2.0d);
+	    result=oper.getResult();
+	    System.out.println("the result is "+result);
+	    System.out.println("-------------------------------------------------");
+	    IoperFactory=new MulFactory();
+	    oper=IoperFactory.createOperation();
+	    oper.setA(23.0d);
+	    oper.setB(2.0d);
+	    result=oper.getResult();
+	    System.out.println("the result is "+result);
+	    
 	}
 }
