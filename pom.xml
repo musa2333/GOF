@@ -28,5 +28,6 @@
     <module>gof.decorator</module>
     <module>gof.proxy</module>
     <module>gof.prototype</module>
+    <module>gof.Template</module>
   </modules>
 </project>
