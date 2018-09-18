@@ -34,7 +34,7 @@ public class Student implements Cloneable {
 		Student student=null;
 		try {
 			student=(Student)super.clone();
-			//deep copy
+			//deep copy method
 			student.setProfessor((Professor)student.professor.clone());
 		} catch (CloneNotSupportedException e) {
 			// TODO Auto-generated catch block
