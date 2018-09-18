@@ -14,3 +14,8 @@
 4. proxy design pattern
    example is who's the one give someone gift by proxy
    use static proxy method
+5. prototype design pattern
+   example is student who has a professor teacher
+   (deep and shallow clone)
+6. Template design pattern
+   example is when student join the examination and solve the question
