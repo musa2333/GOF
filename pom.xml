@@ -29,5 +29,6 @@
     <module>gof.proxy</module>
     <module>gof.prototype</module>
     <module>gof.Template</module>
+    <module>gof.facade</module>
   </modules>
 </project>

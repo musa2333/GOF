@@ -1,6 +1,6 @@
 # GOF
 
-### Design patterns exercise
+## Design patterns exercise
 
 ### 1. factory design pattern 
    example is calculating use simple factory method
@@ -19,3 +19,5 @@
    (deep and shallow clone)
 ### 6. Template design pattern
    example is when student join the examination and solve the question
+### 7. Facade design pattern
+   example is who's the one buy the fund to invest
