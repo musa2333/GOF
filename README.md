@@ -24,4 +24,4 @@
 ### 8. Construct design pattern
    example is who is making products
 ### 9. Watcher design pattern/Publisher/Subscribe
-   example is who is the observer to notify the teacher is comming !!!
+   example is who is the observer to notify the teacher is coming !!!
