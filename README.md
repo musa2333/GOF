@@ -21,3 +21,5 @@
    example is when student join the examination and solve the question
 ### 7. Facade design pattern
    example is who's the one buy the fund to invest
+### 8. Construct design pattern
+   example is who is making products

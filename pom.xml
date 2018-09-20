@@ -30,5 +30,6 @@
     <module>gof.prototype</module>
     <module>gof.Template</module>
     <module>gof.facade</module>
+    <module>gof.constructor</module>
   </modules>
 </project>
