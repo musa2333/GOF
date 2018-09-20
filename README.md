@@ -23,3 +23,5 @@
    example is who's the one buy the fund to invest
 ### 8. Construct design pattern
    example is who is making products
+### 9. Watcher design pattern/Publisher/Subscribe
+   example is who is the observer to notify the teacher is comming !!!
