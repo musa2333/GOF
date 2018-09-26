@@ -7,12 +7,12 @@ public class FactoryB implements abstractfactory {
 
 	public void createFactoryA() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("construct the factory a");
 	}
 
 	public void createFactoryB() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("construct the factory b");
 	}
 
 	
