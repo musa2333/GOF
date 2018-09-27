@@ -37,3 +37,5 @@
    
 ### 10.Abstract Factory design pattern
    example is use reflection method to get dependency injection to make abstract factory
+### 11.Status design pattern
+   example is who's one work for a day

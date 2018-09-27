@@ -33,5 +33,6 @@
     <module>gof.constructor</module>
     <module>gof.Subject</module>
     <module>gof.abstractfactory</module>
+    <module>gof.status</module>
   </modules>
 </project>
