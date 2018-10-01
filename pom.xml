@@ -34,5 +34,6 @@
     <module>gof.Subject</module>
     <module>gof.abstractfactory</module>
     <module>gof.status</module>
+    <module>gof.adapter</module>
   </modules>
 </project>
