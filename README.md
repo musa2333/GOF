@@ -45,4 +45,5 @@
    example is zhou qi is playing in nba should have translator to translate the Tactics
 
 ### 13.memento design pattern
-   
+   example is going to save the state before fighting the Boss,if the player
+   is failed to kill the Boss,he can restart to the moment and try to kill the Boss again
