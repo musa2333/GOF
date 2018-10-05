@@ -43,3 +43,6 @@
    
 ### 12.adapter design pattern
    example is zhou qi is playing in nba should have translator to translate the Tactics
+
+### 13.memento design pattern
+   

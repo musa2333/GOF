@@ -35,5 +35,6 @@
     <module>gof.abstractfactory</module>
     <module>gof.status</module>
     <module>gof.adapter</module>
+    <module>gof.memento</module>
   </modules>
 </project>
