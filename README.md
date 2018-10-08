@@ -47,3 +47,6 @@
 ### 13.memento design pattern
    example is going to save the state before fighting the Boss,if the player
    is failed to kill the Boss,he can restart to the moment and try to kill the Boss again
+   
+### 14.composite design pattern
+   example is show the tree structure 

@@ -36,5 +36,6 @@
     <module>gof.status</module>
     <module>gof.adapter</module>
     <module>gof.memento</module>
+    <module>gof.combination</module>
   </modules>
 </project>
