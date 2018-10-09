@@ -37,5 +37,6 @@
     <module>gof.adapter</module>
     <module>gof.memento</module>
     <module>gof.combination</module>
+    <module>gof.Iterator</module>
   </modules>
 </project>
