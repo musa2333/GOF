@@ -52,4 +52,7 @@
    example is show the tree structure 
    
 ### 15.iterator design pattern
-   example is creating an iterator to loop the fuits in basket
+   example is creating an iterator to loop the fruits in basket
+   
+### 16.Singleton design pattern
+   example is initialize two class based singleton method and compare their hash 

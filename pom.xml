@@ -38,5 +38,6 @@
     <module>gof.memento</module>
     <module>gof.combination</module>
     <module>gof.Iterator</module>
+    <module>gof.Singleton</module>
   </modules>
 </project>
