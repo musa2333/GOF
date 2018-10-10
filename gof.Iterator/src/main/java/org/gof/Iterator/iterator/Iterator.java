@@ -6,7 +6,7 @@ public interface Iterator {
 	
 	public Object Next();
 	
-	public Object IsDone();
+	public Boolean IsDone();
 	
 	public Object currentItem();
 }

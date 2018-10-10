@@ -50,3 +50,6 @@
    
 ### 14.composite design pattern
    example is show the tree structure 
+   
+### 15.iterator design pattern
+   example is creating an iterator to loop the fuits in basket
