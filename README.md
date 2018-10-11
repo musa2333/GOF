@@ -39,8 +39,6 @@
    example is use reflection method to get dependency injection to make abstract factory
 ### 11.Status design pattern
    example is who's one work for a day
-   
-   
 ### 12.adapter design pattern
    example is zhou qi is playing in nba should have translator to translate the Tactics
 
@@ -56,3 +54,7 @@
    
 ### 16.Singleton design pattern
    example is initialize two class based singleton method and compare their hash 
+   
+   
+### 17.bridge design pattern
+   example is show the relationship between mobile phone and software
