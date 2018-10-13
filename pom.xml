@@ -40,5 +40,6 @@
     <module>gof.Iterator</module>
     <module>gof.Singleton</module>
     <module>gof.bridge</module>
+    <module>gof.Command</module>
   </modules>
 </project>

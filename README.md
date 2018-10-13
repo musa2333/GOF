@@ -58,3 +58,6 @@
    
 ### 17.bridge design pattern
    example is show the relationship between mobile phone and software
+   
+### 18.command design pattern
+   example is show the restaurant customer order meal by waiter
