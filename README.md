@@ -61,3 +61,6 @@
    
 ### 18.command design pattern
    example is show the restaurant customer order meal by waiter
+   
+### 19.chain of response design pattern
+   example is the staff ask manager to get pay rise and days off

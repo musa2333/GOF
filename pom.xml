@@ -41,5 +41,6 @@
     <module>gof.Singleton</module>
     <module>gof.bridge</module>
     <module>gof.Command</module>
+    <module>gof.ChainOfResponse</module>
   </modules>
 </project>
