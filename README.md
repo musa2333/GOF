@@ -64,3 +64,6 @@
    
 ### 19.chain of response design pattern
    example is the staff ask manager to get pay rise and days off
+   
+### 20. mediator design pattern
+   example is use mediator to transform the information   
