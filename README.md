@@ -67,3 +67,5 @@
    
 ### 20. mediator design pattern
    example is use mediator to transform the information   
+### 21. flyweight design pattern
+   example is show network fit different people
