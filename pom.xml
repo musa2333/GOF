@@ -44,5 +44,6 @@
     <module>gof.ChainOfResponse</module>
     <module>gof.Mediator</module>
     <module>gof.flyweight</module>
+    <module>gof.interpreter</module>
   </modules>
 </project>
